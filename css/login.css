@@ -1,0 +1,161 @@
+
+    body{
+        /*padding-left: 14em;*/
+        font-family:Garamond,"Times New Roman",Times,serif;
+        color: #3C3830 ;
+        background-color: #E6FFA0;
+        /*image:url(images/avocadoBox.jpg);*/
+    }
+    #wrapper{           
+
+        background-color: #e9f5db;
+        background-image: url(../images/background.png);
+        background-repeat:no-repeat;
+        background-attachment:scroll;
+        color: #0a3200;
+        width: 90%;
+        margin: auto;
+        min-width: 1000px; 
+        height: 1000px;
+        
+    }
+    #header{
+        background-color: #8db483;
+        color: #0a3200;
+        font-size: 150%;
+        padding: 10px 20px 10px 20px;
+
+    }
+    #yls{
+        float: left;
+        margin: 15px 0px 0px 10px;
+        }
+    #left{
+        float: left;
+        width: 200px;
+        padding-top: 30px;
+        height: 50px;
+    }
+    h1{
+        font-family: Gil Sans,Geneva,Arial,sans-serif
+        height: 80px;
+        color: #3C3830;
+        text-shadow: 1px 1px 1px red,
+             2px 2px 1px red;
+        background-repeat: no-repeat;
+        background-color: #e9f5db;
+
+        background-position: left center;
+        border: 3px #c27474 dashed;
+        border-radius: 15px;
+        padding-left:60px;
+        padding-bottom: 10px;
+        margin:0px;
+        text-align:center;
+        line-height:250%;
+    }
+    .textdecoration{
+        text-decoration: none;
+    }       
+    #left ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        line-height: 20px;
+        width:15em;
+    }
+    #left a
+    {
+        display: block;
+        color: #FFF;
+        background-color: #8db483;
+        width: 8em;
+        padding: 6px 30px 6px 6px;
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+        font-weight: bold;
+    }
+
+    #left a:hover
+    {
+    background-color: #FF6D72;
+    color: #FFF;
+    }
+    #nested a
+    {
+        display: block;
+        color: #FFF;
+        color: #0a3200;
+        background-color: #8db483;
+        width: 9em;
+        padding: 3px 3px 3px 17px;
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+        font-weight: normal;
+    }
+
+    a:link, a:active, a:visited, a:focus {
+        color:/*red*/ #3C3830 ;
+        font-weight: 800;
+        line-height: 30px;
+
+    }
+    .login {
+        margin:20px auto;
+        max-width: 250px;
+        max-height: 500px;
+        padding: 20px 12px 10px 30px;
+        font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        background-color: #e9f5db;
+        border: 2px solid #E6FFA0;
+        border-radius: 5px;
+    }
+
+    .name{
+        margin-top: 5px;
+        width: 100%;
+        padding: 5px;
+    }
+    .login li {
+        padding-right: 30px;
+        display: block;
+        list-style: none;
+        margin: 10px 0 0 0;
+    }
+    .login label{
+        margin:0 0 3px 0;
+        padding:0px;
+        display:block;
+        font-weight: bold;
+    }
+
+    select{
+        padding: 5px;
+        margin:0px;
+    }
+
+    .select{
+        width: 100%;
+    }
+    .textarea{
+        height: 50px;
+    }
+    input[type=submit]{
+        background: #8db483;
+        padding: 10px 15px 10px 15px;
+        border: none;
+        color: #fff;
+    }
+
+    .required{
+        color:red;
+    }
+    footer{
+        font-size: 80%;
+        text-align: center;
+        clear:right;
+        margin-top: 70px;
+        background-color: #8db483;
+        color: #0a3200;
+        padding: 10px 20px 10px 20px;
+    }

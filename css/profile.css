@@ -1,0 +1,138 @@
+
+    body{
+        /*padding-left: 14em;*/
+        font-family:Garamond,"Times New Roman",Times,serif;
+        color: #3C3830 ;
+        background-color: #E6FFA0;
+        /*image:url(images/avocadoBox.jpg);*/
+    }
+    #wrapper{
+        background-color: #e9f5db;
+        color: #0a3200;
+        width: 90%;
+        margin: auto;
+        min-width: 1000px;
+        /*text-indent: 2em;
+        line-height: 2;*/
+        
+    }
+    #header{
+        background-color: #8db483;
+        color: #0a3200;
+        font-size: 150%;
+        padding: 10px 20px 10px 20px;
+
+    }
+    #yls{
+        float: left;
+        margin: 15px 0px 0px 10px;
+        }
+    #left{
+        float: left;
+        width: 200px;
+        padding-top: 30px;
+        height: 50px;
+    }
+
+    #center{
+        display: block;
+        align-items: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding: 30px 20px 10px 20px;
+        background-color: #f0efe2;
+        color: #000000;
+        width: 800px;
+        height: auto;
+        line-height:300%;
+    }
+    
+
+    .strategies, #center ul{
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 30px;
+        font-size: 25px;
+    }
+    dt, dd{
+        line-height: 30px;
+        font-size: 25px;
+    }
+
+    h1{
+        font-family: Gil Sans,Geneva,Arial,sans-serif
+        height: 80px;
+        color: #3C3830;
+        text-shadow: 1px 1px 1px red,
+             2px 2px 1px red;
+        background-repeat: no-repeat;
+        background-color: #e9f5db;
+        
+        background-position: left center;
+        border: 3px #c27474 dashed;
+        border-radius: 15px;
+        padding-left:60px;
+        padding-bottom: 10px;
+        margin:0px;
+        text-align:center;
+        line-height:250%;
+    }
+    .textdecoration{
+        text-decoration: none;
+    }       
+    #left ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        line-height: 20px;
+        width:15em;
+    }
+    #left a
+    {
+        display: block;
+        color: #FFF;
+        background-color: #8db483;
+        width: 8em;
+        padding: 6px 30px 6px 6px;
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+        font-weight: bold;
+    }
+
+    #left a:hover
+    {
+    background-color: #FF6D72;
+    color: #FFF;
+    }
+    #nested a
+    {
+        display: block;
+        color: #FFF;
+        color: #0a3200;
+        background-color: #8db483;
+        width: 9em;
+        padding: 3px 3px 3px 17px;
+        text-decoration: none;
+        border-bottom: 1px solid #fff;
+        font-weight: normal;
+    }
+        
+    a:link, a:active, a:visited, a:focus {
+        color:/*red*/ #3C3830 ;
+        font-weight: 800;
+        line-height: 30px;
+        
+    }
+    #bodyimg, video{
+        padding: 10px 20px 10px 60px;
+    }
+        
+    footer{
+        font-size: 80%;
+        text-align: center;
+        clear:right;
+        margin-top: 70px;
+        background-color: #8db483;
+        color: #0a3200;
+        padding: 10px 20px 10px 20px;
+    }

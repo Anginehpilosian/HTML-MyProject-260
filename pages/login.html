@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <link href="../css/login.css" type="text/css" rel="stylesheet"/>
+</head>   
+<body>
+<div id="wrapper">
+    <div id="header">
+        <img id="yls" src="../images/apple%20copy.png" alt="logo" height="110" width="100">
+        <h1>Food Recovery</h1>
+    </div>
+   <div id="left">
+        <ul>
+            <li><a href="../index.html" class="textdecoration">Home page</a>
+                <ul id="nested">
+                    <li><a href="../pages/marketingStrategies.html" class="textdecoration">Marketing Strategy</a></li>
+                    <li><a href="../pages/drying.html" class="textdecoration">Drying Food </a></li>
+                    <li><a href="../pages/freezing.html" class="textdecoration" >Freezing Food </a></li>
+                </ul>
+            </li>
+            <li><a href="login.html" class="textdecoration" style="background-color: #FF6D72;">Log In </a></li>
+            <li><a href="profile.html" class="textdecoration">My Profile</a></li>
+            <li><a href="links.html" class="textdecoration">Links</a></li>
+        </ul>
+    </div><!--end div left -->
+    
+     <form>
+        <ul class="login">
+            <li><label>Full Name <span class="required">*</span></label><input type="text" name="neme" class="name" placeholder="First" /> <input type="text" name="name" class="name" placeholder="Last" /></li>
+            <li>
+                <label>Email <span class="required">*</span></label>
+                <input type="email" name="name" class="name" />
+            </li>
+            <li>
+                <label>Subject</label>
+                <select name="field4" class="select">
+                <option value="Advertise">Advertise</option>
+                <option value="Partnership">Partnership</option>
+                <option value="General Question">General</option>
+                </select>
+            </li>
+            <li>
+                <label>Your Message <span class="required">*</span></label>
+                <textarea name="text" id="text" class="textarea"></textarea>
+            </li>
+            <li>
+                <input type="submit" value="Submit" />
+            </li>
+        </ul>
+    </form>
+</div>
+
+
+    <footer> Angineh Pilosian copyright 2021 </footer>
+    
+</body>    
+</html>
